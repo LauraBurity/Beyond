@@ -1,4 +1,21 @@
 
+body {
+    margin: 0;
+    background-color: #ba84ff;
+    float: center;
+}
+main{
+    margin:5%;
+}
+article{
+    padding: 1em;
+}
+.topic{
+    border: black;
+    border-style: solid;
+    padding: 1em;
+    margin: 1em;
+}
 .planet-pictures{
     margin: 1em;
     width: 20em;
@@ -9,9 +26,24 @@
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
+#text-title{
+    font-family: "Vidaloka", system-ui;
+    font-weight: 400;
+}
+#subtitle{
+    font-family: "Vidaloka", system-ui;
+}
 #title > h1, p{
     text-align: center;
 }
 #title > h1{
     margin: 0%;
 }
+#title {
+    background-color: #8461bd;
+}
+#background{
+    background-color: #ba84ff;
+}
+
+  
