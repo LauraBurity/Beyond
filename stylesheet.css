@@ -11,18 +11,26 @@ article{
     padding: 1em;
 }
 .topic{
-    background-color: rgb(61, 0, 66);
+    background-color: #9966d9;
     color: rgb(255, 255, 255);
-    border: rgb(61, 0, 66);
+    border: #9966d9;
     border-style: solid;
     padding: 1em;
     margin: 1em;
+    display: block;
+    float: center;
+
 }
 .planet-pictures{
     margin: 1em;
     width: 20em;
     height:13em;
 }
+.figure-pics{
+    display: flex;
+    justify-content: center;
+}
+
 #planets{
     display: flex;
     flex-wrap: wrap;
@@ -43,6 +51,7 @@ article{
 }
 #title {
     background-color: #8461bd;
+    padding: 2em;
 }
 #background{
     background-color: #ba84ff;
