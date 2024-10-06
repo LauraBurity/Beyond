@@ -1,0 +1,17 @@
+
+.planet-pictures{
+    margin: 1em;
+    width: 20em;
+    height:13em;
+}
+#planets{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+#title > h1, p{
+    text-align: center;
+}
+#title > h1{
+    margin: 0%;
+}
